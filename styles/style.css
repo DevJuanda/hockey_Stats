@@ -1,0 +1,58 @@
+* {
+    box-sizing: content-box;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar li{
+    display: inline;
+    padding: 10px 40px;
+    margin: 0px 15px;
+    background-color: rgb(0, 45, 128);
+    position: relative;
+    border: 1px solid;
+    border-color: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul{
+    text-align: right;
+
+}
+
+.navbar {
+    margin-bottom: -25px;
+}
+
+#greenButton{
+    background-color: rgb(47, 255, 92);
+}
+
+.headerImage {
+    height: 250px;
+    width: 100%;
+    object-fit:cover;
+    object-position: center 20%;
+}
+
+.titleContainer {
+    border: 2px solid;
+}
+
+.secondTitle {
+    text-align: center;
+}
+
+.contentPage {
+    display: inline-flex;
+    width: 100%;
+}
+
+.logoMDHL {
+    width: 150px;
+    height: 150px;
+}
